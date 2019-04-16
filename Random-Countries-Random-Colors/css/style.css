@@ -12,5 +12,14 @@ body {
 }
 
 .container {
+	display: flex;
+    align-items: center;
+}
 
+.countriesClass{
+
+}
+
+.countriesClass p {
+	
 }

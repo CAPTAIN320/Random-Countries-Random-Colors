@@ -14,6 +14,7 @@ body {
 .container {
 	display: flex;
     align-items: center;
+    flex-direction: 
 }
 
 .countriesClass{
@@ -21,5 +22,5 @@ body {
 }
 
 .countriesClass p {
-	
+
 }

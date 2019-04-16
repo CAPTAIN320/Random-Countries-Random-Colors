@@ -5,7 +5,10 @@ html, body {
 }
 
 body {
-      
+    font-family: "Courier New", Courier, monospace;
+    font-size: 30px;
+    background-color: #EDE7FF;
+    color: #000 ;
 }
 
 .container {

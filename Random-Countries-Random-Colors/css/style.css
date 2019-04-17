@@ -23,4 +23,5 @@ body {
 
 .countriesClass p {
 	font-size: 100px;
+	font-weight: bold;
 }

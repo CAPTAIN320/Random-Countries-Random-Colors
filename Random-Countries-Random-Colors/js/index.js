@@ -4,7 +4,7 @@ var counterText = document.getElementById("counterP");
 var countriesDiv = document.getElementById("countriesDiv");
 var countriesText = document.getElementById("countriesP");
 
-var country_list = [];
+var country_list = ["Naija", "Nihon"];
 
 var numOfCountries = country=list.length
 
@@ -14,6 +14,6 @@ function getRandomArrayIndex(){
 
 setInterval( function(){
 
-	
+
 
 }, 4000);

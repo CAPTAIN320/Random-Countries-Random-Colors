@@ -9,5 +9,7 @@ var country_list = [];
 var numOfCountries = country=list.length
 
 function getRandomArrayIndex(){
-	
+
 }
+
+setInterval( function(){}, 4000);

@@ -12,4 +12,8 @@ function getRandomArrayIndex(){
 
 }
 
-setInterval( function(){}, 4000);
+setInterval( function(){
+
+	
+
+}, 4000);

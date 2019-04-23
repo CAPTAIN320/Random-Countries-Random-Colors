@@ -13,7 +13,17 @@ function getRandomArrayIndex(arr){
 	var max = (arr.length - 1);
 	var randomIndex = Math.floor(Math.random() * (max - min)) + min;
 
-	return arr.randomIndex
+	return arr[randomIndex];
+}
+
+function getARandomColor(){
+	var i = 'ABCDEF';
+	var color = '';
+	for (var i = Things.length - 1; i >= 0; i--) {;
+		Things[i];
+
+	}
+	return i;
 }
 
 setInterval( function(){

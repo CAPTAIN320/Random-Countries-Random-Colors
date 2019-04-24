@@ -17,10 +17,10 @@ function getRandomArrayIndex(arr){
 }
 
 function getARandomColor(){
-	var i = 'ABCDEF';
+	var text = 'ABCDEF';
 	var color = '#';
 	for (var i = 0; i < 5; i++) {;
-		color = color + i[Math.floor(Math.random() * 8)];
+		color = color + text[Math.floor(Math.random() * 16)];
 	}
 	return i;
 }

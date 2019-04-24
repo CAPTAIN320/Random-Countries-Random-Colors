@@ -17,14 +17,15 @@ function getRandomArrayIndex(arr){
 }
 
 function getARandomColor(){
-	var text = 'ABCDEF';
+	var text = '0123456789ABCDEF';
 	var color = '#';
 	for (var i = 0; i < 5; i++) {;
 		color = color + text[Math.floor(Math.random() * 16)];
 	}
-	return i;
+	return color;
 }
 
+//Interval in milliseconds
 setInterval( function(){
 
 

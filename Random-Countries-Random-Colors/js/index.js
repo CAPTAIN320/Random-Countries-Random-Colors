@@ -18,10 +18,9 @@ function getRandomArrayIndex(arr){
 
 function getARandomColor(){
 	var i = 'ABCDEF';
-	var color = '';
-	for (var i = Things.length - 1; i >= 0; i--) {;
-		Things[i];
-
+	var color = '#';
+	for (var i = 0; i < 5; i++) {;
+		color = color + i[Math.floor(Math.random() * 8)];
 	}
 	return i;
 }

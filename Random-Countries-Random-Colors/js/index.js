@@ -4,6 +4,7 @@ var counterText = document.getElementById("counterP");
 var countriesDiv = document.getElementById("countriesDiv");
 var countriesText = document.getElementById("countriesP");
 
+//Array of countries
 var country_list = ["Naija", "Nihon"];
 
 var numOfCountries = country=list.length

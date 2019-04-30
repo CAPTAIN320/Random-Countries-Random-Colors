@@ -27,7 +27,8 @@ function getARandomColor(){
 
 //Interval in milliseconds
 setInterval( function(){
-
+	//Get a random value from our array.
+	var country = getRandomArrayElement(country_list);
 
 
 }, 4000);

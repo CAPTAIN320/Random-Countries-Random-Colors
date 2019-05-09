@@ -23,7 +23,7 @@ function getRandomArrayElement(arr){
 function getARandomColor(){
 	var text = '0123456789ABCDEF';
 	var color = '#';
-	for (var i = 0; i < 5; i++) {;
+	for (var i = 0; i < 6; i++) {;
 		color = color + text[Math.floor(Math.random() * 16)];
 	}
 	return color;

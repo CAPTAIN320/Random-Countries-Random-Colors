@@ -34,14 +34,16 @@ setInterval( function(){
 	//Get a random value from our array.
 	var country = getRandomArrayElement(country_list);
 
-	//Get a random background color for the country being displayed
+	//Get a random text color for the country being displayed
 	var colorOfCountry = getARandomColor();
 
 	if (i > numOfCountries) {
 		i = 1;
 	}
 
-	
+	//Outputs it in the HTML file with textContent
+	counterText.textContent = i.toString();
+
 
 
 

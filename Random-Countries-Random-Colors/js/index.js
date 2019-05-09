@@ -34,5 +34,15 @@ setInterval( function(){
 	//Get a random value from our array.
 	var country = getRandomArrayElement(country_list);
 
+	//Get a random background color for the country being displayed
+	var colorOfCountry = getARandomColor();
+
+	if (i > numOfCountries) {
+		i = 1;
+	}
+
+	
+
+
 
 }, 4000);

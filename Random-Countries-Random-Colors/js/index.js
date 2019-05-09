@@ -41,7 +41,7 @@ setInterval( function(){
 		i = 1;
 	}
 
-	//Outputs it in the HTML file with textContent
+	//Outputs text counter
 	counterText.textContent = i.toString();
 
 

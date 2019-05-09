@@ -9,7 +9,7 @@ var country_list = ["Naija", "Nihon"];
 
 var numOfCountries = country=list.length
 
-function getRandomArrayIndex(arr){
+function getRandomArrayElement(arr){
 	//Minimum value is set to 0 because arrays start at 0
 	var min = 0;
 	//Get max value by subtracting 1 from the array size

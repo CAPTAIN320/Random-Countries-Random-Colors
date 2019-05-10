@@ -51,7 +51,7 @@ setInterval( function(){
 
 	if (i == 0) {
 		countriesText.textContent = country;
-		
+		countriesText.style.color = colorOfCountry;
 	}
 
 

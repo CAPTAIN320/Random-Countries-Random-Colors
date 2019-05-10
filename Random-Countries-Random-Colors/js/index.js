@@ -25,7 +25,7 @@ function getRandomArrayElement(arr){
 	return arr[randomIndex];
 }
 
-function getARandomColor(){
+function getRandomColor(){
 	var text = '0123456789ABCDEF';
 	var color = '#';
 	for (var i = 0; i < 6; i++) {;
@@ -40,7 +40,7 @@ setInterval( function(){
 	var country = getRandomArrayElement(country_list);
 
 	//Get a random text color for the country being displayed
-	var colorOfCountry = getARandomColor();
+	var colorOfCountry = getRandomColor();
 
 	if (i > numOfCountries) {
 		i = 1;

@@ -49,6 +49,10 @@ setInterval( function(){
 	//Outputs text counter
 	counterText.textContent = i.toString();
 
+	if (i == 0) {
+		countriesText.textContent = country;
+		
+	}
 
 
 

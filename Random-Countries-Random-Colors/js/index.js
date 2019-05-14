@@ -16,7 +16,7 @@ var country_list = ["Afghanistan","Albania","Algeria","Andorra","Angola","Anguil
 	,"Mauritius","Mexico","Moldova","Monaco","Mongolia","Montenegro","Montserrat","Morocco","Mozambique","Namibia","Nepal","Netherlands","Netherlands Antilles","New Caledonia"
 	,"New Zealand","Nicaragua","Niger","Nigeria",];
 
-var numOfCountries = country=list.length
+var numOfCountries = country=list.length;
 
 function getRandomArrayElement(arr){
 	//Minimum value is set to 0 because arrays start at 0

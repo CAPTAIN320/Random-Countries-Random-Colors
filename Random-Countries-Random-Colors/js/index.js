@@ -60,4 +60,4 @@ setInterval( function(){
 
 	i = i+1;
 
-}, 4000);
+}, 1000);

@@ -58,6 +58,6 @@ setInterval( function(){
 		countriesText.style.color = colorOfCountry;
 	}
 
-
+	i = i+1;
 
 }, 4000);

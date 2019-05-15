@@ -23,6 +23,9 @@ var country_list = ["Afghanistan","Albania","Algeria","Andorra","Angola","Anguil
 
 var numOfCountries = country_list.length;
 
+//Starting point of counter
+var i = 1;
+
 function getRandomArrayElement(arr){
 	//Minimum value is set to 0 because arrays start at 0
 	var min = 0;

@@ -21,7 +21,7 @@ var country_list = ["Afghanistan","Albania","Algeria","Andorra","Angola","Anguil
 	,"Turkey","Turkmenistan","Uganda","Ukraine","United Arab Emirates","United Kingdom","United States","Uruguay"
 	,"Uzbekistan","Venezuela","Vietnam","Virgin Islands (US)","Yemen","Zambia","Zimbabwe"];
 
-var numOfCountries = country=list.length;
+var numOfCountries = country_list.length;
 
 function getRandomArrayElement(arr){
 	//Minimum value is set to 0 because arrays start at 0

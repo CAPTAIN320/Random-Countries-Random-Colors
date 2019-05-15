@@ -12,16 +12,16 @@ body {
 }
 
 .container {
-	display: flex;
+    display: flex;
     align-items: center;
     flex-direction: column;
 }
 
-.countriesClass{
-	text-align: center;
+.countriesClass {
+    text-align: center;
 }
 
 .countriesClass p {
-	font-size: 60px;
-	font-weight: bold;
+    font-size: 60px;
+    font-weight: bold;
 }

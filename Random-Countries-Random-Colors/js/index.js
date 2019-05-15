@@ -51,6 +51,7 @@ setInterval( function(){
 	//Get a random text color for the country being displayed
 	var colorOfCountry = getRandomColor();
 
+	//Reset the counter
 	if (i > numOfCountries) {
 		i = 1;
 	}

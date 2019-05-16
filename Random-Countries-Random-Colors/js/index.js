@@ -62,7 +62,7 @@ setInterval( function(){
 	//Outputs text counter
 	counterText.textContent = i.toString();
 
-	if (i == 0) {
+	if (i != 0) {
 		countriesText.textContent = country;
 		countriesText.style.color = colorOfCountry;
 	}

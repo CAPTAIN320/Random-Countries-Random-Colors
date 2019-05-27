@@ -22,7 +22,7 @@ var country_list = ["Afghanistan","Albania","Algeria","Andorra","Angola","Anguil
 
 var numOfCountries = country_list.length;
 
-//Starting point of counter
+//Starting point of counter 
 var i = 1;
 
 function getRandomArrayElement(arr){
